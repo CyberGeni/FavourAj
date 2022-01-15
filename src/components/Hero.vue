@@ -16,13 +16,14 @@ export default {
 </script>
 <style scoped>
     @font-face {
-        font-family: Circular;
-        src: url(/src/assets/fonts/Circular/CircularStd-Book.otf);
-    }
-    @font-face {
         font-family: Trap;
         src: url(/assets/fonts/Trap_/Trap-Regular.otf);
     }
+    @font-face {
+        font-family: Circular;
+        src: url(/src/assets/fonts/Circular/CircularStd-Book.otf);
+    }
+    
     main {
         height: 70vh;
         display: flex;
