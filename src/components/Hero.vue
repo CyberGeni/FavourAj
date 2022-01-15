@@ -33,10 +33,10 @@ export default {
     img[src="/src/assets/bg-gradients.png"] {
         display: flex;
         position: absolute;
-        margin-top: -6%;
-        margin-right: -38%;
-        width: 50em;
-        height: min-content;
+        top: 0;
+        right: 0;
+        width: 90%;
+        height: 100%;
         opacity: 0.6;
     }
     img[src="/src/assets/scroll.svg"] {
