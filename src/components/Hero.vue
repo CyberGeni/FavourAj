@@ -16,7 +16,7 @@ export default {
 </script>
 <style scoped>
     @font-face {
-        font-family: Trap;
+        font-family: 'Trap';
         src: url(/assets/fonts/Trap_/Trap-Regular.otf);
     }
     @font-face {
