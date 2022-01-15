@@ -6,7 +6,6 @@
             <h1>product designer</h1>
             <p>i have a thing for turning complex ideas into solutions that satisfy users without compromising on business goals.</p>
         </section>
-        
     </main>
 </template>
 <script>
@@ -19,6 +18,10 @@ export default {
     @font-face {
         font-family: Circular;
         src: url(/src/assets/fonts/Circular/CircularStd-Book.otf);
+    }
+    @font-face {
+        font-family: Trap;
+        src: url(/assets/fonts/Trap_/Trap-Regular.otf);
     }
     main {
         height: 70vh;
