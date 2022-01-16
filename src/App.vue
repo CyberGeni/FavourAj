@@ -12,13 +12,13 @@
         <section>
           <ul>
             <h4>playground</h4>
-            <li><a href="https://">behance</a></li>
-            <li><a href="https://">dribbble</a></li>
+            <li><a href="https://behance.net/favourajefu">behance</a></li>
+            <li><a href="https://dribbble.com/fayvour">dribbble</a></li>
           </ul>
           <ul>
             <h4>socials</h4>
-            <li><a href="https://">twitter</a></li>
-            <li><a href="https://">linkedin</a></li>
+            <li><a href="https://twitter.com/fayvouraj">twitter</a></li>
+            <li><a href="https://linkedin.com/in/fayvouraj">linkedin</a></li>
           </ul>
         </section>
       </footer>
