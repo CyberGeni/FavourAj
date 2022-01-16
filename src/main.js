@@ -7,7 +7,7 @@ import Home from './components/Home.vue'
 import About from './components/About.vue'
 import Resume from './components/Resume.vue'
 import Riskfree from './components/case-studies/riskfree/RiskFree.vue'
-import Spotify from './components/case-studies/spotify/spotify.vue'
+import Spotify from './components/case-studies/spotify/Spotify.vue'
 // Router init
 Vue.use(VueRouter);
 const router = new VueRouter({
