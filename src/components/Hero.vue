@@ -20,16 +20,20 @@ export default {
 <style scoped>
 
     main {
-        height: 70vh;
+        height: 85vh;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
+    section {
+        margin-top: -5em;
+    }
     .spikey {
         position: absolute;
         margin-right: 75%;
         margin-top: -20em;
+        z-index: -150;
     }
     .rounded {      
         position: absolute;
@@ -52,7 +56,7 @@ export default {
         top: 0;
         right: 0;
         width: 90%;
-        height: 100%;
+        height: fit-content;
         opacity: 0.6;
     }
     h2 {

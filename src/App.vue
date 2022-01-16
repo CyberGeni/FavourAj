@@ -12,13 +12,13 @@
         <section>
           <ul>
             <h4>playground</h4>
-            <li><a href="">behance</a></li>
-            <li><a href="">dribbble</a></li>
+            <li><a href="https://">behance</a></li>
+            <li><a href="https://">dribbble</a></li>
           </ul>
           <ul>
             <h4>socials</h4>
-            <li><a href="">twitter</a></li>
-            <li><a href="">linkedin</a></li>
+            <li><a href="https://">twitter</a></li>
+            <li><a href="https://">linkedin</a></li>
           </ul>
         </section>
       </footer>
@@ -72,6 +72,9 @@ export default {
   }
   footer {
     display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex: 1 1;
     width: 100%;
     margin: 3em 0;
   }
@@ -79,7 +82,7 @@ export default {
   footer h1 {
     font-family: 'Trap' !important;
     font-size: 3em;
-    background: -webkit-linear-gradient(180deg, #A8FFBB 33.3%, #6B81F0 33.3%, #CC48ED 33.3%);
+    background: -webkit-linear-gradient(180deg, #A8FFBB 16.21%, #6B81F0 41.72%, #CC48ED 81.21%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0.2em 0;
@@ -105,8 +108,14 @@ export default {
     text-decoration: none;
     line-height: 35px;
   }
+  footer section:nth-child(1) {
+    width: 50%;
+  }
   footer section:nth-child(2) {
     display: flex;
-    justify-content: center;
+    width: 50%;
+  }
+  footer section:nth-child(2) ul {
+    width: 45%;
   }
 </style>
