@@ -6,7 +6,7 @@
         <img src="/src/assets/rounded-star.svg" alt="" class="rounded">
         <section>
             <h2>hi, i'm favour</h2>
-            <h1>product designer</h1>
+            <h1 class="animate__bounceIn">product designer</h1>
             <p>i have a thing for turning complex ideas into solutions that satisfy users without compromising on business goals.</p>
         </section>
     </main>
