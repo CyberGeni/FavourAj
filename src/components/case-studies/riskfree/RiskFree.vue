@@ -24,7 +24,7 @@
         </section>
         <section>
             <h3>design process</h3>
-            <img src="src/assets/riskfree/design-processes.svg" alt="">
+            <img src="src/assets/design-processes.svg" alt="">
         </section>
         
         <section>
@@ -103,7 +103,7 @@ export default {
         width: 100%;
         border-radius: 4px;
     }
-    img[src="src/assets/riskfree/design-processes.svg"] {
+    img[src="src/assets/design-processes.svg"] {
         width: 100%;
     }
     section h3 {
