@@ -41,7 +41,7 @@ export default {
     }
     .rounded {      
         position: absolute;
-        margin-right: -56%;
+        margin-right: -30%;
         top: 50;
         z-index: -150;
         opacity: 0.5;

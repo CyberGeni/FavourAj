@@ -21,6 +21,14 @@ export default {
 </script>
 
 <style>
+@font-face {
+        font-family: 'Trap';
+        src: url(/assets/fonts/Trap_/Trap-Regular.otf);
+    }
+    @font-face {
+        font-family: Circular;
+        src: url(/src/assets/fonts/Circular/CircularStd-Book.otf);
+    }
   * {
     margin: 0;
     padding: 0;
