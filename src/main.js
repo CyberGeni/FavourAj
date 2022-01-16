@@ -6,7 +6,8 @@ import VueRouter from 'vue-router'
 import Home from './components/Home.vue'
 import About from './components/About.vue'
 import Resume from './components/Resume.vue'
-
+import Riskfree from './components/case-studies/riskfree/RiskFree.vue'
+import Spotify from './components/case-studies/spotify/spotify.vue'
 // Router init
 Vue.use(VueRouter);
 const router = new VueRouter({
@@ -17,7 +18,8 @@ const router = new VueRouter({
     {path: '/resume', component: Resume},
 
     // mediocre routing of project information components
-    
+    {path: '/riskfree', component: Riskfree},
+    {path: '/spotify', component: Spotify},
   ],
   mode : 'history'
 })

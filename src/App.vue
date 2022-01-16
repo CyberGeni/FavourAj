@@ -86,6 +86,7 @@ export default {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0.2em 0;
+    width: fit-content;
   }
   footer p {
     font-family: 'Circular';
