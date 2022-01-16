@@ -2,7 +2,7 @@
     <main>
         <header>
             <h2>RISK FREE</h2>
-            <p>You can't help but overthink, we'll help you stop</p>
+            <p>You can't help but <strong>overthink</strong> , we'll help you <strong>stop</strong></p>
         </header>
         <hr>
         <nav>
@@ -61,6 +61,9 @@ export default {
 }
 </script>
 <style scoped>
+    strong {
+        font-family: 'Trap';
+    }
     main {
         font-family: Circular;
         margin: 1em 0;
@@ -111,12 +114,16 @@ export default {
     section p {
         color: #A6A5AE;
         font-weight: 500;
+        line-height: 24px;
+        font-size: 18px;
         margin: 1em 0;
     }
     ol {
-        margin: 0.5em 1.5em;
+        margin: 0.5em 1.8em;
     }
     ol li {
+        line-height: 24px;
+        font-size: 18px;
         color: #A6A5AE;
     }
 

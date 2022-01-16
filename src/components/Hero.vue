@@ -63,6 +63,7 @@ export default {
         font-family: 'Circular';
         color: white;
         font-size: 1.5em;
+        font-weight: 500;
     }
     h1 {
         font-family: 'Trap' !important;
