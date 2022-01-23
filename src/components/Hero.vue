@@ -67,6 +67,7 @@ export default {
     }
     h1 {
         font-family: 'Trap' !important;
+        font-weight: 800;
         font-size: 5em;
         background: -webkit-linear-gradient(180deg, #A8FFBB 16.21%, #6B81F0 41.72%, #CC48ED 81.21%);
         -webkit-background-clip: text;
