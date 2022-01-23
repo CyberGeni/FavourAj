@@ -41,13 +41,54 @@ export default {
 
 <style>
     @font-face {
-        font-family: Trap;
-        src: url(/assets/fonts/Trap_/Trap-Regular.otf);
+        font-family: "Circular";
+        src: url("/src/assets/fonts/Circular/CircularStd-Book.otf");
     }
     @font-face {
-        font-family: Circular;
-        src: url(/src/assets/fonts/Circular/CircularStd-Book.otf);
-    }
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-Regular.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-Black.otf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-Bold.otf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-ExtraBold.otf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-Light.otf");
+    font-weight: bold;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-Medium.otf");
+    font-weight: bold;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-SemiBold.otf");
+    font-weight: bold;
+    font-style: italic;
+  }
   * {
     margin: 0;
     padding: 0;
