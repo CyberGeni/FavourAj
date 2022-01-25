@@ -1,9 +1,9 @@
 <template>
     <main>
-        <h1>selected cases</h1>
+        <h1 class="leading-none text-4xl sm:text-5xl lg:text-7xl transition">selected cases</h1>
         <section v-for="casestudy in cases" :key="casestudy.id">
-            <img :src="casestudy.image" alt="" />
-            <router-link :to="casestudy.link">
+            <img class="w-24 sm:w-32 lg:48" :src="casestudy.image" alt="" />
+            <router-link :to="casestudy.link" class="text-white">
                 <h2>{{casestudy.title}}</h2>
                 <p>{{casestudy.description}}</p>    
             </router-link>
@@ -49,7 +49,6 @@ export default {
     }
     h1 {
         font-family: 'Trap';
-        font-size: 5em;
         background: -webkit-linear-gradient(180deg, #A8FFBB 16.21%, #6B81F0 41.72%, #CC48ED 81.21%);
         color: rgba(27, 25, 25);
         -webkit-background-clip: text;
@@ -62,19 +61,23 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: space-evenly;
-        height: max-content;
-        color: white;
         text-decoration: none;
+        color: white
     }
     h2 {
         font-size: 32px;
         font-weight: 500;
-        margin-bottom: 0.5em;
+        margin-bottom: 0.1em;
     }
     section {
         display: flex;
         align-items: center;
         margin: 1.5em 0;
+        transition: 350ms cubic-bezier(0, 0.98, 0.25, 1.13);
+    }
+    section:hover {
+        margin-left: 4.5em;
+        transform: scale(1.1);
     }
     section img {
         margin-right: 1.5em;

@@ -6,7 +6,7 @@
         <img src="/src/assets/rounded-star.svg" alt="" class="rounded">
         <section>
             <h2>hi, i'm favour</h2>
-            <h1 class="animate__bounceIn">product designer</h1>
+            <img src="/src/assets/product-designer.svg" class="animate__bounceIn leading-tight" alt="">
             <p>i have a thing for turning complex ideas into solutions that satisfy users without compromising on business goals.</p>
         </section>
     </main>
@@ -18,7 +18,57 @@ export default {
 }
 </script>
 <style scoped>
+     @font-face {
+        font-family: "Circular";
+        src: url("/src/assets/fonts/Circular/CircularStd-Book.otf") format("opentype");;
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
 
+  @font-face {
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-Black.otf") format("opentype");;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-Bold.otf") format("opentype");;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-ExtraBold.otf") format("opentype");;
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-Light.otf");
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-Medium.otf");
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Trap";
+    src: url("/assets/fonts/Trap_/Trap-SemiBold.otf");
+    font-weight: bold;
+    font-style: italic;
+  }
     main {
         height: 85vh;
         display: flex;
@@ -63,7 +113,6 @@ export default {
         font-family: 'Circular';
         color: white;
         font-size: 1.5em;
-        font-weight: 500;
     }
     h1 {
         font-family: 'Trap' !important;
@@ -74,11 +123,15 @@ export default {
         -webkit-text-fill-color: transparent;
         margin: 0.2em 0;
     }
+    img[src="/src/assets/product-designer.svg"] {
+      width: 100%;
+    }
     p {
         font-family: 'Circular';
         color: #E8E8F4;
         font-size: 1.15em;
         line-height: 30px;
         max-width: 720px;
+        margin: auto;
     }
 </style>

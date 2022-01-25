@@ -6,7 +6,7 @@
       <footer>
         
         <section>
-          <h1>have an idea?</h1>
+          <h1 class="idea">have an idea?</h1>
           <p>lets chat about it.</p>
         </section>
         <section>
@@ -120,7 +120,7 @@ export default {
     margin: 3em 0;
   }
   
-  footer h1 {
+  footer h1.idea {
     font-family: 'Trap' !important;
     font-size: 3em;
     background: -webkit-linear-gradient(180deg, #A8FFBB 16.21%, #6B81F0 41.72%, #CC48ED 81.21%);
@@ -159,5 +159,22 @@ export default {
   }
   footer section:nth-child(2) ul {
     width: 45%;
+  }
+  @media (max-width: 500px) {
+    footer {
+      flex-direction: column;
+      width: 100%;
+    }
+    footer section:nth-child(1) {
+    width: 100%;
+  }
+  footer section:nth-child(2) {
+    display: flex;
+    width: 100%;
+    margin-top: 1.7em;
+  }
+  footer section:nth-child(2) ul {
+    width: 100%;
+  }
   }
 </style>
