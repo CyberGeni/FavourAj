@@ -1,8 +1,8 @@
 <template>
     <main>
-        <h1 class="leading-none text-4xl sm:text-5xl lg:text-7xl transition">selected cases</h1>
+        <h1 class="leading-none text-4xl sm:text-5xl lg:text-7xl stroke-1 transition">selected cases</h1>
         <section v-for="casestudy in cases" :key="casestudy.id">
-            <img class="w-24 sm:w-32 lg:48" :src="casestudy.image" alt="" />
+            <img class="w-24 sm:w-32 lg:48" :src="casestudy.image" :alt="casestudy.description" />
             <router-link :to="casestudy.link" class="text-white">
                 <h2>{{casestudy.title}}</h2>
                 <p>{{casestudy.description}}</p>    
