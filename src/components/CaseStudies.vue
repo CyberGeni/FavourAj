@@ -51,6 +51,7 @@ export default {
         font-family: 'Trap';
         background: -webkit-linear-gradient(180deg, #A8FFBB 16.21%, #6B81F0 41.72%, #CC48ED 81.21%);
         color: rgba(27, 25, 25);
+        /* the transparent content with just border thingy */
         -webkit-background-clip: text;
         -webkit-text-stroke: 4px transparent;
         margin: 0.2em 0;
